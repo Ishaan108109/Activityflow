@@ -4,12 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 
-class Activity2 : AppCompatActivity() {
+class Activity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_2)
-
-        // set click listener for back button
+        setContentView(R.layout.activity_3)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
@@ -21,4 +19,5 @@ class Activity2 : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
 }

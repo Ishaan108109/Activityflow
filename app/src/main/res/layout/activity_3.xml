@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#051A47"
-    tools:context=".Activity2">
+    tools:context=".Activity3">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -31,7 +31,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:padding="@dimen/cardview_default_elevation"
-                android:text="Activity 2"
+                android:text="Activity 3"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="30sp" />
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
 
-        android:text="This is the 2nd activity"
+        android:text="This is the 3rd activity"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
